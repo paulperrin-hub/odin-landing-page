@@ -2,7 +2,7 @@
 
 A simple single-page site built for The Odin Project to practice semantic HTML, Flexbox layout, and basic styling.
 
-<strong>Live Preview:</strong> [ADD_YOUR_GITHUB_PAGES_LINK_HERE]
+<strong>Live Preview:</strong> [https://paulperrin-hub.github.io/odin-landing-page/]
 
 ## How It's Made
 
