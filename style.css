@@ -1,0 +1,176 @@
+* { box-sizing: border-box; }
+
+/* Inside body - DONE */
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+nav, 
+header, 
+section, 
+footer {
+    padding: 0 15%;
+}
+
+nav, header, footer {
+    background: #1F2937;
+}
+
+section.sec_cards, section.sec_signup {
+    background: white;
+}
+
+section.sec_quote {
+    background: #E5E7EB;
+}
+
+/* Inside nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    color: #E5E7EB;
+}
+
+.header_logo {
+    align-self: center ;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    padding:0;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+/* Inside header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.header_child {
+    width: 50%;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.main_img {
+    background-color: gray;
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header button {
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+/* Inside sec_cards */
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+h2 {
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card_img {
+    border: 2px solid royalblue;
+    border-radius: 15px;
+    aspect-ratio: 1 / 1;
+}
+
+/* Inside section quote */
+
+.sec_quote {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 26%;
+}
+
+.text_quote {
+    margin: 0;
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author_quote {
+    margin: 8px 0 0 0;
+    align-self: flex-end;
+}
+
+/* Inside section signup */
+
+.card_signup {
+    background: royalblue;
+    margin: 48px;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    color: #E5E7EB;
+}
+
+.text_signup {
+    margin-right: auto;
+}
+
+.card_signup button {
+    cursor: pointer;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+    margin: 8px 24px;
+    padding: 10px 18px;
+}
+
+/* Inside footer */
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 24px 0;
+}
